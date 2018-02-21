@@ -10,5 +10,13 @@ def my_max():
 	x = x.split(" ")
 	x.sort()
 	print(x[len(x)])
+def my_len():
+	b = 0
+	lens = input()
+	lens = lens.split(" ")
+	for i in lens:
+		b += 1
+	print(b)	
 #my_sum()
-my_max()
+#my_max()
+#my_len()
