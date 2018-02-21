@@ -1,0 +1,5 @@
+print("Напиши 3 числа")
+f = input()
+s = input()
+t = input()
+print((int(f) + int(s) + int(t)) / 3) 
